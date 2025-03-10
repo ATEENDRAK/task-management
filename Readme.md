@@ -96,7 +96,7 @@ curl --location 'http://localhost:8080/tasks?status=Completed&limit=5&offset=1'
   }
 ]
 
-3️⃣ Update a Task
+3️) Update a Task
 
 Endpoint: PUT /tasks/{id}
 
@@ -108,7 +108,7 @@ curl -X PUT "http://localhost:8080/tasks/1" \n     -H "Content-Type: application
   "message": "Task updated"
 }
 
-4️⃣ Delete a Task
+4️) Delete a Task
 
 Endpoint: DELETE /tasks/{id}
 
