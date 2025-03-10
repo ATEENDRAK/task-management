@@ -133,6 +133,10 @@ Scalability: Can integrate with a User Service via REST/gRPC.
 
 Future Improvements
 
+Connection Details : Move all the connection details to a config file and infrastructure layer fetches from the config.
+
+Testing : Adding unit test cases for each module
+
 Logging & Monitoring: Can be extended with Prometheus & Grafana.
 
 Add JWT authentication for user access control.
